@@ -1,0 +1,62 @@
+.newmoviesDesign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.inputDesign {
+  margin: 0; /* Centra el elemento en la pantalla */
+  width: 20%;
+  margin-top: 20px; /* Ajusta este valor según el espacio que desees */
+  border: none; /* Elimina el borde del input */
+  outline: none; /* Elimina el contorno al hacer clic en el input */
+  padding: 10px; /* Añade un relleno alrededor del texto del input */
+  font-size: 26px; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+.gridContainer {
+  display: grid;
+}
+
+.gridItem {
+  position: relative;
+  width: 45vh;
+  height: 40vh;
+}
+
+.gridImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Para ajustar la imagen dentro del contenedor sin distorsionar */
+  opacity: 0.2;
+}
+
+.gridInfo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.gridTitle {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.gridDate {
+  font-size: 20px;
+}
+
+ul {
+  /* Estilos para la lista de películas */
+  display: grid;
+  grid-template-columns: repeat(6, 30fr); /* Divide en 5 columnas equitativas */
+  grid-template-rows: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Divide en filas de tamaño automático */
+  gap: 16px;
+}

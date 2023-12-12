@@ -1,0 +1,60 @@
+.moviesDesign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.inputDesign {
+  margin: 0;
+  width: 20%;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 26px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.gridItem {
+  position: relative;
+  width: 45vh;
+  height: 40vh;
+}
+
+.gridImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+.gridInfo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.gridTitle {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.gridDate {
+  font-size: 20px;
+}
+
+ul {
+  display: grid;
+  /* grid-template-columns: repeat(6, auto); */
+  /* grid-template-rows: repeat(auto-fit, minmax(300px, 1fr)); */
+  gap: 16px;
+}
