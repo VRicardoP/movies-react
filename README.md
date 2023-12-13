@@ -2,31 +2,30 @@
 
 ![Movies React](portada.png)
 
-## Descripción del proyecto.
+## Project Description
 
-Este proyecto es un sitio web desarrollado con React y Vite que permite realizar consultas de películas utilizando la API de "The Movie DB" mediante la API de "The Movie DB".
-El sitio web está compuesto por una web de portada y un menú que da acceso a las siguientes páginas:
+This project is a website developed with React and Vite that allows users to query movies using "The Movie DB" API. The website consists of a cover page and a menu that provides access to the following pages:
 
-- Lista de las películas más importantes
-- Lista de películas nuevas
-- Lista de películas mejor puntuadas
-- Búsqueda de películas por título
+- List of top-rated movies
+- List of new movies
+- List of top-rated movies
+- Movie search by title
 
-Los resultados se muestran presentando las portadas de las películas y sobre estas su título y fecha. Cuando pulsamos sobre una de las películas se accede a otra web en la que vemos la portada y más información sobre la película, como el título, puntuación, fecha, descripción, etc.
+The results are displayed by showing the movie covers, titles, and release dates. Clicking on a movie leads to another page where you can view the cover and more information about the movie, such as title, rating, release date, description, etc.
 
-## Capturas de Pantalla
+## Screenshots
 
 ![Movies React](portada.png)
 ![Movies React](top.png)
 ![Movies React](search.png)
 
-## Características
+## Features
 
-- Consulta de películas por categoría: más importantes, nuevas, mejor puntuadas.
-- Búsqueda de películas por título.
-- Detalles de película que incluyen título, puntuación, fecha, descripción, etc.
+- Movie queries by category: top-rated, new, highest-rated.
+- Movie search by title.
+- Movie details including title, rating, release date, description, etc.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
 - React
 - Vite
@@ -34,23 +33,21 @@ Los resultados se muestran presentando las portadas de las películas y sobre es
 - HTML
 - JavaScript
 
-## Instalación
+## Installation
 
-Sigue estos pasos para instalar y ejecutar la aplicación:
+Follow these steps to install and run the application:
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/movies-react.git`
-2. Entra al directorio del proyecto: `cd movies-react`
-3. Instala las dependencias: `npm install`
-4. Inicia la aplicación: `npm run dev`
-   Esto abrirá el proyecto en tu navegador en la dirección http://localhost:[puerto] con la que poder acceder al sitio web.
+1. Clone the repository: `git clone https://github.com/your-username/movies-react.git`
+2. Enter the project directory: `cd movies-react`
+3. Install dependencies: `npm install`
+4. Start the application: `npm run dev`
+   This will open the project in your browser at http://localhost:[port], allowing you to access the website.
 
-## Uso
+## Usage
 
-Una vez que el sitio web es accesible a través de un navegador se podrán acceder a los diferentes apartados mediate el menú superior seleccionando la opción deseada.
-La opción de búsqueda ofrece la posibilidad de buscar una película. Irán apareciendo resultados alrededor de medio segundo al parar de escribir en el campo de búsqueda.
-Al pulsar sobre cualquiera de los resultados se accederá a la información más detallada de la película seleccionada.
+Once the website is accessible through a browser, you can navigate to different sections via the top menu by selecting the desired option. The search option allows you to search for a movie, with results appearing about half a second after stopping typing in the search field. Clicking on any of the results will take you to more detailed information about the selected movie.
 
-## Estructura del Proyecto
+## Project Structure
 
 ```plaintext
 .
@@ -113,30 +110,30 @@ Al pulsar sobre cualquiera de los resultados se accederá a la información más
 └── vite.config.js
 ```
 
-## Contribuciones
+## Contributions
 
-Si deseas contribuir a este proyecto, sigue estos pasos:
+If you want to contribute to this project, follow these steps:
 
-1. Haz un fork del proyecto.
-2. Crea una rama para tu contribución: `git checkout -b feature/nueva-funcionalidad`
-3. Realiza tus cambios y haz commit: `git commit -m 'Agrega nueva funcionalidad'`
-4. Haz push a tu rama: `git push origin feature/nueva-funcionalidad`
-5. Crea una solicitud de extracción (pull request) en GitHub.
+1. Fork the project.
+2. Create a branch for your contribution: `git checkout -b feature/new-feature`
+3. Make your changes and commit: `git commit -m 'Add new feature'`
+4. Push to your branch: `git push origin feature/new-feature`
+   5`Create a pull request on GitHub.
 
-## Licencia
+## License
 
-Este proyecto está bajo la licencia [MIT](LICENSE).
+This project is under the [MIT](LICENSE).
 
-## Ejemplos
+## Examples
 
-A continuación se muestran algunos ejemplos de cómo usar el proyecto:
+Here are some examples of how to use the project:
 
-Para ver la lista de las películas más importantes, visita la página /important.
-Para ver la lista de películas nuevas, visita la página /newest.
-Para ver la lista de películas mejor puntuadas, visita la página /top-rated.
-Para buscar películas por título, visita la página /search e introduce el título de la película en el campo de búsqueda.
-Cuando pulsas sobre una película en la lista de resultados, se abrirá una nueva página con más información sobre la película.
+- To view the list of top-rated movies, visit the /top-rated page.
+- To view the list of new movies, visit the /newest page.
+- To view the list of highest-rated movies, visit the /top-rated page.
+- To search for movies by title, visit the /search page and enter the movie title in the search field.
+  When you click on a movie in the results list, a new page will open with more information about the selected movie.
 
 ---
 
-¡Gracias por tu interés en Movies React! Si tienes alguna pregunta o problema, no dudes en crear un [issue](link_to_your_issues_page).
+Thank you for your interest in Movies React! If you have any questions or issues, feel free to create an [issue](link_to_your_issues_page).
